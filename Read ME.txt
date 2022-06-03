@@ -1,0 +1,38 @@
+7 Days student : Kelompok 5
+Nama Anggota Kelompok 5:
+- Christian Alexander Andrue (00000043524)
+- Ferdy Willy (00000043525)
+- Rendy Januardi Winata (00000043680)
+
+Peraturan permainan :
+
+1. Klik tombol play untuk memulai permainan
+2. Masukkan Nama (harus ketik perhuruf secara bertahap atau copy paste nama dari notepad) dan pilih karakter dan Jurusan Lalu Submit untuk lanjut ke tahap selanjutnya.
+3. Ada 4 Bar yaitu Belajar, Makan, Main, dan Tidur.
+4. Ada 4 Lokasi yaitu Home, Cafe, Kampus, dan Mall.
+5. Setelah kita login, maka lokasinya akan menjadi "unknown". 
+   Setiap Lokasi memiliki kegiatan yang berbeda beda yang bisa dilakukan di tempat tertentu.
+   Jika kita di "unkown" : kita tidak bisa melakukan aktivitas apapun.
+   Jika kita di "Home"   : kita bisa melakukan aktivitas Makan, Main, dan Tidur.
+   Jika kita di "Kafe"   : kita bisa melakukan aktivitas Makan.
+   Jika kita di "Kampus" : kita bisa melakukan aktivitas Makan, dan Belajar.
+   Jika kita di "Mall"   : kita bisa melakukan aktivitas Makan dan Main.
+6. Setiap Aktivitas akan mempengaruhi status yang lain seperti:
+   - Aktivitas Makan  : mengurangi status tidur.
+   - Aktivitas Main   : mengurangi status makan.
+   - Aktivitas Tidur  : tidak mengurangi status apapun.
+   - Aktivitas Belajar: mengurangi status tidur dan main. 
+7. Setelah login, terdapat simulasi hari dan jam (dimulai dari hari minggu jam 00:00).
+   Simulasi jam kami menggunakan dengan kecepatan 100ms (1 detik (di realtime) = 10 menit (di game).
+8. Di dalam game akan ada salam yang sudah disesuaikan dengan jam permainan dan nama pemain.
+9. Progress bar kan terus berkurang seiring waktu berjalan dan akan bertambah jika kita melakukan suatu aktivitas.
+10. Di dalam game akan ada Nama Daerah, Negara, suhu, dan cuaca tempat tersebut (kita menggunakan tempat di UMN (Tangerang)).
+11. Mainkan game sampai 7 hari. Setelah 7 hari, maka akan ada evaluasi berdasarkan status pemain saat itu.
+
+Note: Background game mengikuti Weather API dan Dapat melihat news di Samping memlalui HP.
+      Dikarenakan kita menggunakan newsAPI (free), jadi memiliki limit credit. Jadi, jika website tersebut di run berkali-kali maka credit tersebut akan habis dan berita tidak bisa       dimunculkan di website kami.
+      Jika saat website kami dirun dan berita tidak muncul dilayar HP yang sudah kami sediakan, bisa melihat contoh beritanya di video presentasi atau buka dari Link Codesandbox yang       tertera di bawah.
+
+Link Codesandbox: https://codesandbox.io/s/kelompok-5-gmn3gr?file=/src/index.js
+Link Video Presentasi: https://youtu.be/TOraRIYV6Cs
+Link Github: https://github.com/Frogice/UAS_PTI.git

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+.head {
+  width: 70vh;
+  margin: auto;
+}
+.head h1 {
+  text-align: center;
+  padding: 15px;
+  color: #07305c;
+}
+.head p {
+  text-align: center;
+  color: #07305c;
+  font-weight: lighter;
+}
+.pinkCircle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  transform: rotate(180deg);
+  height: 150px;
+  width: 300px;
+  border-radius: 150px 150px 0 0;
+  background-color: #f0a98f;
+}
+.blueCircle {
+  position: absolute;
+  top: 29%;
+  height: 250px;
+  width: 125px;
+  border-bottom-right-radius: 125px;
+  border-top-right-radius: 125px;
+  margin-right: 3%;
+  background-color: #07305c;
+}
+.greenCircle {
+  position: absolute;
+  top: 34%;
+  left: 9%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #228967;
+}
+.aquaCircle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 150px;
+  width: 300px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  background-color: #00ffff;
+}
+.blueCircle1 {
+  position: absolute;
+  bottom: 12%;
+  left: 20%;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: #07305c;
+}
+.greenCircle1 {
+  position: absolute;
+  bottom: 0;
+  left: 28%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #228967;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  padding: 8px;
+  font-weight: lighter;
+  color: #228967;
+}
+
+.flipCard {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  padding: 20px;
+}
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+.flipCardFront1,
+.flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flipCardFront2,
+.flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipCardBack {
+  padding: 10px;
+  background-color: #228967;
+  color: white;
+  transform: rotateY(180deg);
+}
